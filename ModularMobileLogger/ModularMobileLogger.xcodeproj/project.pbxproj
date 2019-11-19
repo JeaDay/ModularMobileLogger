@@ -140,6 +140,15 @@
 			path = Console;
 			sourceTree = "<group>";
 		};
+		3AB7F066238494C000DE272E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				3ABC9C062290940C0071659A /* PrinterTests.swift */,
+				3AB7F06023841F4D00DE272E /* LoggerEventTests.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		3ABC9BC922908F120071659A = {
 			isa = PBXGroup;
 			children = (
@@ -179,8 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				3ABC9BEC22908F150071659A /* Info.plist */,
-				3ABC9C062290940C0071659A /* PrinterTests.swift */,
-				3AB7F06023841F4D00DE272E /* LoggerEventTests.swift */,
+				3AB7F066238494C000DE272E /* Logger */,
 			);
 			path = ModularMobileLoggerTests;
 			sourceTree = "<group>";
