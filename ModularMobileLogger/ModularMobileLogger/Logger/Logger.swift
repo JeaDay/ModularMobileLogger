@@ -50,13 +50,13 @@ public class Logger {
         guard !ignoredFiles.contains(file) else { return }
         guard !ignoredEvents.contains(event.config) else { return }
         if event.config.async {
-            printer.printAsync(content: event.displayText())
+            printer.printAsync(content: event.textToDisplay())
         } else {
-            printer.printSync(content: event.displayText())
+            printer.printSync(content: event.textToDisplay())
         }
         guard !event.config.shouldStopAtDebug else {
             guard allowStop else { return }
-            stopLoggerWith(info: "Stopped with fatal error from event: \(event.displayText())")
+            stopLoggerWith(info: "Stopped with fatal error from event: \(event.textToDisplay())")
             return
         }
     }

@@ -19,6 +19,7 @@
 		3A94615822A45BB10087F0B8 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A94615722A45BB10087F0B8 /* ConsoleView.swift */; };
 		3AB7F05D23840E8900DE272E /* Loging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F05C23840E8900DE272E /* Loging.swift */; };
 		3AB7F05F23840F0700DE272E /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F05E23840F0700DE272E /* Fruit.swift */; };
+		3AB7F06123841F4D00DE272E /* LoggerEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F06023841F4D00DE272E /* LoggerEventTests.swift */; };
 		3ABC9BD622908F120071659A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9BD522908F120071659A /* AppDelegate.swift */; };
 		3ABC9BD822908F120071659A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9BD722908F120071659A /* ViewController.swift */; };
 		3ABC9BDB22908F120071659A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC9BD922908F120071659A /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		3A94615722A45BB10087F0B8 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
 		3AB7F05C23840E8900DE272E /* Loging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loging.swift; sourceTree = "<group>"; };
 		3AB7F05E23840F0700DE272E /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		3AB7F06023841F4D00DE272E /* LoggerEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerEventTests.swift; sourceTree = "<group>"; };
 		3ABC9BD222908F120071659A /* ModularMobileLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularMobileLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABC9BD522908F120071659A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABC9BD722908F120071659A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				3ABC9BEC22908F150071659A /* Info.plist */,
 				3ABC9C062290940C0071659A /* PrinterTests.swift */,
+				3AB7F06023841F4D00DE272E /* LoggerEventTests.swift */,
 			);
 			path = ModularMobileLoggerTests;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABC9C072290940C0071659A /* PrinterTests.swift in Sources */,
+				3AB7F06123841F4D00DE272E /* LoggerEventTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

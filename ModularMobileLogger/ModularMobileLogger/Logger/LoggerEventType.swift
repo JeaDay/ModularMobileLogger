@@ -10,6 +10,14 @@ import Foundation
 
 public struct LoggerEventType {
     let name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    init(type: DefaultLoggerLogTypes) {
+        self.name = type.rawValue
+    }
 }
 
 extension LoggerEventType: Equatable {

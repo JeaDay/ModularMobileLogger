@@ -30,7 +30,7 @@ class ConsoleEventCell: UITableViewCell {
     
     func bind(_ with: LoggerEvent) {
         iconLabel.text = with.config.emojiIcon
-        eventLabel.text = with.displayText()
+        eventLabel.text = with.textToDisplay()
         eventLabel.textColor = with.config.textColor
     }
     

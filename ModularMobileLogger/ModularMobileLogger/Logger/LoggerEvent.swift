@@ -10,9 +10,9 @@ import Foundation
 public struct LoggerEvent {
     let config: LoggerEventConfig
     let text: String
-    let date: Date
-    let params: [String: Any]?
-    let array: [Any]?
+    private let date: Date
+    private let params: [String: Any]?
+    private let array: [Any]?
     
     init(config: LoggerEventConfig,
          text: String,
@@ -26,12 +26,12 @@ public struct LoggerEvent {
         self.array = array
     }
     
-    func displayText(displayTextEventName: Bool = false) -> String {
+    func textToDisplay(displayTextEventName: Bool = false) -> String {
         var textToDisplay = baseText(displayTextEventName: displayTextEventName)
         if let params = params {
             textToDisplay.append("\nParameters(\(params.keys.count)):\n")
-            _ = params.map({ (key,value) -> Void in
-                textToDisplay.append("  \(key): \(value)\n")
+            _ = params.keys.sorted().map({ (key) -> Void in
+                textToDisplay.append("  \(key): \(params[key] ?? "")\n")
             })
         }
         
