@@ -106,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				3A05E8352290B34100636867 /* DefaultConfigsFactory.swift */,
-				3AB7F05E23840F0700DE272E /* Fruit.swift */,
 			);
 			path = DefaultData;
 			sourceTree = "<group>";
@@ -162,7 +161,6 @@
 		3ABC9BD422908F120071659A /* ModularMobileLogger */ = {
 			isa = PBXGroup;
 			children = (
-				3A05E8342290B32800636867 /* DefaultData */,
 				3ABC9C0B2290AA630071659A /* App */,
 				3ABC9C082290A9480071659A /* Utils */,
 				3A94615222A454AF0087F0B8 /* Console */,
@@ -196,6 +194,7 @@
 		3ABC9C03229090480071659A /* Logger */ = {
 			isa = PBXGroup;
 			children = (
+				3A05E8342290B32800636867 /* DefaultData */,
 				3ABC9C042290905E0071659A /* Printer.swift */,
 				3A05E82C2290ABB300636867 /* LoggerEvent.swift */,
 				3A05E82E2290ABE700636867 /* LoggerEventConfig.swift */,
@@ -217,6 +216,7 @@
 		3ABC9C0B2290AA630071659A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				3AB7F05E23840F0700DE272E /* Fruit.swift */,
 				3ABC9BD522908F120071659A /* AppDelegate.swift */,
 				3ABC9BD722908F120071659A /* ViewController.swift */,
 			);

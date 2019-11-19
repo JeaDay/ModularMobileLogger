@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum DefaultLoggerLogTypes: String {
+public enum DefaultLoggerLogTypes: String {
     case error = "Error"
     case fatalError = "Fatal Error"
     case warrning = "Warrning"
@@ -32,9 +32,7 @@ public class DefaultConfigsFactory {
         case visible
     }
     
-    public init() {
-        
-    }
+    public init() { }
     
     public func createDefaultConfigs() -> [LoggerEventConfig] {
         return DefaultConfigsFactory.json.compactMap { (element) -> LoggerEventConfig? in
